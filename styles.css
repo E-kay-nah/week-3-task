@@ -1,0 +1,108 @@
+.bg-img{
+    height: 100%;
+    background-image: url('/images/pexels-chris-f-38966-6664375.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+*{
+    
+    box-sizing: border-box;
+    
+    
+}
+/* .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  } */
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.survey-container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border:  1px solid gray;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color:#fff;
+    box-shadow: 10px 10px 5px grey;
+    height: auto;
+    /* position: absolute; */
+
+
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    padding: 10px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="age"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+ 
+  input[type="radio"] {
+    
+    border: 1px solid #393838;
+    border-radius: 50%;
+  }
+  
+
+select {
+    width: 100%;
+    padding: 6px ;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+
+
+
+
+.button-container{
+    display: flex;
+}
+
+
+button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px; 
+
+}
+
